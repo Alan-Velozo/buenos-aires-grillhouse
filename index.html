@@ -1,0 +1,424 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Buenos Aires Grillhouse</title>
+        <link rel="icon" href="images/dinner.png">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="styles.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    </head>
+    <body>
+        <header>
+            <a href="#" class="logo">
+                <img src="images/dinner.png" alt="Logo">
+            </a>
+            <nav class="navbar">
+                <a href="#home">Home</a>
+                <a href="#about">About</a>
+                <a href="#menu">Menu</a>
+                <a href="#products">Products</a>
+                <a href="#review">Reviews</a>
+                <a href="#contact">Contact</a>
+                <a href="#blogs">Blogs</a>
+            </nav>
+
+            <div class="icons">
+                <div class="fa-solid fa-magnifying-glass"></div>
+                <div class="fa-solid fa-cart-shopping"></div>
+                <div class="fa-solid fa-bars"></div>
+            </div>
+
+            <div class="search-form">
+                <input type="search" id="search-box" placeholder="Search here...">
+                <label for="search-box" class="fas fa-magnifying-glass"></label>
+            </div>
+
+            <div class="delivery-items-container">
+
+                <div class="delivery-item">
+                    <span class="fas fa-times"></span>
+                    <img src="images/empanadas.jpg" alt="Empanadas">
+                    <div class="content">
+                        <p>Empanadas</p>
+                        <div class="price">$11.79</div>
+                    </div>
+                </div>
+
+                <div class="delivery-item">
+                    <span class="fas fa-times"></span>
+                    <img src="images/milanesa.jpg" alt="Milanesa">
+                    <div class="content">
+                        <p>Milanesa</p>
+                        <div class="price">$13.49</div>
+                    </div>
+                </div>
+
+                <div class="delivery-item">
+                    <span class="fas fa-times"></span>
+                    <img src="images/choripan.jpg" alt="Choripan">
+                    <div class="content">
+                        <p>Choripan</p>
+                        <div class="price">$8.99</div>
+                    </div>
+                </div>
+
+                <a href="#" class="btn">Order now!</a>
+            </div>
+
+        </header>
+
+        <main>
+            <section class="home" id="home">
+                <div class="content">
+                    <h1>THE BEST ARGENTINE FOOD</h1>
+                    <p>Visit us to taste the best food of Buenos Aires</p>
+                    <a href="#" class="btn">ORDER NOW</a>
+                </div>
+            </section>
+
+            <section class="about" id="about">
+                <h2 class="heading">About us</h2>
+
+                <div class="row">
+                    <div class="image">
+                        <img src="images/argentineMeat.jpg" alt="Argentine food">
+                    </div>
+
+                    <div class="content">
+                        <h3>What makes the argentine meat special?</h3>
+                        <p>Discover the mouthwatering flavors of Argentine beef, renowned worldwide for its unrivaled quality and exquisite taste. Argentina's rich tradition of cattle ranching and the unique grazing conditions of the pampas contribute to the exceptional flavor and tenderness of our beef. Whether you're savoring a perfectly grilled <i>asado</i>, relishing a tender steak, or exploring the diverse cuts of Argentine beef, you'll be treated to a culinary experience like no other. Indulge in the tantalizing flavors of Argentine <i>asado</i> and discover why it has captivated meat lovers around the globe.</p>
+                        <a href="#" class="btn">LEARN MORE</a>
+                    </div>
+                </div>
+            </section>
+
+            <section class="menu" id="menu">
+                
+                <h2 class="heading">Our <span>menu</span></h2>
+                
+                <div class="box-container">
+                    
+                    <div class="box">
+                        <img src="images/matambre.jpg" alt="Matambre">
+                        <h3>Matambre</h3>
+                        <div class="price">$15.99 <span>$20.99</span></div>
+                        <a href="#" class="btn">Order now</a>
+                    </div>
+
+                    <div class="box">
+                        <img src="images/locro.jpg" alt="Locro">
+                        <h3>Locro</h3>
+                        <div class="price">$10.99 <span>$15.99</span></div>
+                        <a href="#" class="btn">Order now</a>
+                    </div>
+
+                    <div class="box">
+                        <img src="images/milanesa.jpg" alt="Milanesa">
+                        <h3>Milanesa</h3>
+                        <div class="price">$13.49 <span>$18.99</span></div>
+                        <a href="#" class="btn">Order now</a>
+                    </div>
+
+                    <div class="box">
+                        <img src="images/choripan.jpg" alt="Choripan">
+                        <h3>Choripan</h3>
+                        <div class="price">$8.99 <span>$12.99</span></div>
+                        <a href="#" class="btn">Order now</a>
+                    </div>
+
+                    <div class="box">
+                        <img src="images/provoleta.jpg" alt="Provoleta">
+                        <h3>Provoleta</h3>
+                        <div class="price">$12.99 <span>$16.99</span></div>
+                        <a href="#" class="btn">Order now</a>
+                    </div>
+
+                    <div class="box">
+                        <img src="images/empanadas.jpg" alt="Empanadas">
+                        <h3>Empanadas</h3>
+                        <div class="price">$11.79 <span>$14.99</span></div>
+                        <a href="#" class="btn">Order now</a>
+                    </div>
+
+                </div>
+            </section>
+
+            <section class="products" id="products">
+                <h2 class="heading">Our <span>products</span></h2>
+                <div class="box-container">
+                    
+                    <div class="box">
+                        
+                        <div class="icons">
+                            <a href="#" class="fas fa-shopping-cart"></a>
+                            <a href="#" class="fas fa-heart"></a>
+                            <a href="#" class="fas fa-eye"></a>
+                        </div>
+
+                        <div class="image">
+                            <img src="images/products1.png" alt="Bife ancho">
+                        </div>
+
+                        <div class="content">
+                            <h3>Bife ancho</h3>
+                            <div class="stars">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star-half-alt"></i>
+                            </div>
+                            <div class="price">$15.99 <span>$18.99</span></div>
+                        </div>
+
+                    </div>
+
+                    <div class="box">
+                        
+                        <div class="icons">
+                            <a href="#" class="fas fa-shopping-cart"></a>
+                            <a href="#" class="fas fa-heart"></a>
+                            <a href="#" class="fas fa-eye"></a>
+                        </div>
+
+                        <div class="image">
+                            <img src="images/products2.png" alt="Corazón de cuadril">
+                        </div>
+
+                        <div class="content">
+                            <h3>Corazón de cuadril</h3>
+                            <div class="stars">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                            </div>
+                            <div class="price">$14.99 <span>$16.99</span></div>
+                        </div>
+                        
+                    </div>
+
+                    <div class="box">
+                        
+                        <div class="icons">
+                            <a href="#" class="fas fa-shopping-cart"></a>
+                            <a href="#" class="fas fa-heart"></a>
+                            <a href="#" class="fas fa-eye"></a>
+                        </div>
+
+                        <div class="image">
+                            <img src="images/products3.png" alt="Bife angosto">
+                        </div>
+
+                        <div class="content">
+                            <h3>Bife angosto</h3>
+                            <div class="stars">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                            </div>
+                            <div class="price">$13.99 <span>$15.99</span></div>
+                        </div>
+                        
+                    </div>
+
+                    <div class="box">
+                        
+                        <div class="icons">
+                            <a href="#" class="fas fa-shopping-cart"></a>
+                            <a href="#" class="fas fa-heart"></a>
+                            <a href="#" class="fas fa-eye"></a>
+                        </div>
+
+                        <div class="image">
+                            <img src="images/products4.png" alt="Solomillo">
+                        </div>
+
+                        <div class="content">
+                            <h3>Solomillo</h3>
+                            <div class="stars">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                            </div>
+                            <div class="price">$15.49 <span>$17.49</span></div>
+                        </div>
+                        
+                    </div>
+
+                    <div class="box">
+                        
+                        <div class="icons">
+                            <a href="#" class="fas fa-shopping-cart"></a>
+                            <a href="#" class="fas fa-heart"></a>
+                            <a href="#" class="fas fa-eye"></a>
+                        </div>
+
+                        <div class="image">
+                            <img src="images/products5.png" alt="Entraña">
+                        </div>
+
+                        <div class="content">
+                            <h3>Entraña</h3>
+                            <div class="stars">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star-half-alt"></i>
+                            </div>
+                            <div class="price">$14.79 <span>$16.79</span></div>
+                        </div>
+                        
+                    </div>
+                    
+                </div>
+            </section>
+
+            <section class="review" id="review">
+                <h2 class="heading">Customer's <span>review</span></h2>
+                <div class="box-container">
+
+                    <div class="box">
+                        <img src="images/quotes.png" alt="Quotes" class="quote">
+                        <p>Argentine food is simply amazing! Every bite is an explosion of authentic flavors that transport me straight to Buenos Aires. An unforgettable culinary experience!</p>
+                        <img src="images/customer1.jpg" alt="Customer" class="customer">
+                        <h3>Karen</h3>
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                    </div>
+
+                    <div class="box">
+                        <img src="images/quotes.png" alt="Quotes" class="quote">
+                        <p>As a meat lover, I can confidently say that Argentine beef is unbeatable. Juicy, tender, and perfectly seasoned, it's a true delicacy. This restaurant is definitely the best place to enjoy it.</p>
+                        <img src="images/customer2.jpg" alt="Customer" class="customer">
+                        <h3>John</h3>
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                    </div>
+
+                    <div class="box">
+                        <img src="images/quotes.png" alt="Quotes" class="quote">
+                        <p>I can't stop praising Argentine food at this restaurant. The beef cuts are exceptional, but the sides and empanadas are also delicious. An authentic Argentine culinary experience in every dish!</p>
+                        <img src="images/customer3.jpg" alt="Customer" class="customer">
+                        <h3>Andrew</h3>
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star-half-alt"></i>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section class="contact" id="contact">
+                <h2 class="heading"><span>Contact</span> us</h2>
+                <div class="row">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d13136.066850016401!2d-58.3815704!3d-34.6037389!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4aa9f0a6da5edb%3A0x11bead4e234e558b!2sObelisco!5e0!3m2!1sen!2sar!4v1694393391076!5m2!1sen!2sar" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" class="map"></iframe>
+                
+                    <form>
+                        <h3>Get in touch</h3>
+                        <div class="inputBox">
+                            <span class="fas fa-user"></span>
+                            <input type="text" placeholder="Name" required>
+                        </div>
+
+                        <div class="inputBox">
+                            <span class="fas fa-envelope"></span>
+                            <input type="email" placeholder="Email" required>
+                        </div>
+
+                        <div class="inputBox">
+                            <span class="fas fa-phone"></span>
+                            <input type="number" placeholder="Number" required>
+                        </div>
+                        <input type="submit" value="CONTACT NOW" class="btn">
+                    </form>
+                </div>
+            </section>
+
+            <section class="blogs" id="blogs">
+                <h2 class="heading">Our <span>blogs</span></h2>
+
+                <div class="box-container">
+                    <div class="box">
+                        <div class="image">
+                            <img src="images/blogs1.jpg" alt="Jigote catamarqueño">
+                        </div>
+                        <div class="content">
+                            <a href="#" class="title">Tasting Argentina: Exploring the Flavors of the Pampas</a>
+                            <span>By Michael - 21st may, 2023</span>
+                            <p>Welcome to our Argentinean food blog! Explore the most delicious and authentic dishes from Argentina as we dive into its rich culinary tradition. Join us on this unique and flavorful journey!</p>
+                            <a href="#" class="btn">Read more</a>
+                        </div>
+                    </div>
+
+                    <div class="box">
+                        <div class="image">
+                            <img src="images/blogs2.jpg" alt="Empanadas">
+                        </div>
+                        <div class="content">
+                            <a href="#" class="title">Savoring Argentina: A Food Lover's Guide to Argentinean Cuisine</a>
+                            <span>By Franklin - 30th jun, 2023</span>
+                            <p>In our blog, we'll take you on a culinary journey through Argentina. From the perfect barbecue to the tastiest empanadas, you'll find everything you need to know about Argentinean cuisine. Let's savor together!</p>
+                            <a href="#" class="btn">Read more</a>
+                        </div>
+                    </div>
+
+                    <div class="box">
+                        <div class="image">
+                            <img src="images/blogs3.jpg" alt="Asado">
+                        </div>
+                        <div class="content">
+                            <a href="#" class="title">From Empanadas to Asado: A Culinary Journey Through Argentina</a>
+                            <span>By Trevor - 17th feb, 2023</span>
+                            <p>Discover the irresistible flavors of Argentina on our blog. From gravity-defying grilled meats to the coziest homemade recipes, immerse yourself in the world of Argentinean food. Experience the passion of Argentinean cuisine with us!</p>
+                            <a href="#" class="btn">Read more</a>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </main>
+        <footer>
+            <div class="share">
+                <a href="https://www.facebook.com" target="_blank" class="fab fa-facebook-f"></a>
+                <a href="https://www.twitter.com" target="_blank" class="fab fa-twitter"></a>
+                <a href="https://www.instagram.com" target="_blank" class="fab fa-instagram"></a>
+                <a href="https://www.linkedin.com/in/alan-velozo-a14299255/" target="_blank" class="fab fa-linkedin"></a>
+                <a href="https://github.com/Alan-Velozo" target="_blank" class="fab fa-github"></a>
+            </div>
+            <div class="links">
+                <a href="#home">Home</a>
+                <a href="#about">About</a>
+                <a href="#menu">Menu</a>
+                <a href="#products">Products</a>
+                <a href="#review">Review</a>
+                <a href="#contact">Contact</a>
+                <a href="#blogs">Blogs</a>
+            </div>
+
+            <div class="credit">Created by <span>Alan Velozo</span> | All rights reserved</div>
+        </footer>
+        <script src="script.js"></script>
+    </body>
+</html>
