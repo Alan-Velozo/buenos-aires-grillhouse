@@ -250,6 +250,24 @@ section{
     border-radius: 7px;
 }
 
+.left{
+    opacity: 0;
+    transform: translateX(-100%);
+    transition: opacity 1s, transform 1s;
+}
+
+.right{
+    opacity: 0;
+    transform: translateX(200%);
+    transition: opacity 1s, transform 1s;
+}
+
+.down{
+    opacity: 0;
+    transform: translateY(50%);
+    transition: opacity 1s, transform 1s;
+}
+
 .about .row .image{
     flex: 1 1 45rem;
 }
